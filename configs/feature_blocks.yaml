@@ -1,0 +1,164 @@
+version: 1
+defaults:
+  asof_rule: available_timestamp_lte_asof
+  max_staleness_days: 180
+blocks:
+  market_core:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 45
+    features:
+      - hh_mtd_mean
+      - hh_last
+      - hh_vol_7d
+      - hh_diff_1d
+      - stor_last
+      - stor_mean_4w
+      - stor_slope_4w
+      - stor_mom_change
+  steo_observation:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - steo_dry_prod_bcfd_t
+      - steo_marketed_prod_bcfd_t
+      - steo_dry_to_marketed_ratio_t
+      - steo_extraction_loss_ratio_t
+      - steo_dry_prod_bcfd_t_plus_1
+      - steo_marketed_prod_bcfd_t_plus_1
+      - steo_dry_to_marketed_ratio_t_plus_1
+      - steo_extraction_loss_ratio_t_plus_1
+  steo_driver:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - steo_driver_active_rigs
+      - steo_driver_new_wells_drilled
+      - steo_driver_new_wells_completed
+      - steo_driver_duc_inventory
+      - steo_driver_new_well_gas_production
+      - steo_driver_existing_gas_production_change
+  steo_drilling_metrics:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - steo_drilling_rigs
+      - steo_drilling_wells_drilled
+      - steo_drilling_wells_completed
+      - steo_drilling_duc_inventory
+      - steo_drilling_new_well_gas_production
+      - steo_drilling_existing_gas_production_change
+      - steo_drilling_completion_to_duc_ratio
+      - steo_drilling_new_well_minus_legacy
+  steo_shale:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - steo_shale_dry_prod_bcfd_t
+      - steo_shale_share_of_dry_t
+      - steo_non_shale_dry_prod_bcfd_t
+      - steo_shale_dry_prod_bcfd_t_plus_1
+      - steo_shale_share_of_dry_t_plus_1
+      - steo_non_shale_dry_prod_bcfd_t_plus_1
+  steo_energy_prices:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - steo_energy_hh_spot_usd_mcf_t
+      - steo_energy_hh_spot_usd_mcf_t_plus_1
+      - steo_energy_hh_spot_usd_mmbtu_t
+      - steo_energy_hh_spot_usd_mmbtu_t_plus_1
+      - steo_energy_wti_spot_usd_bbl_t
+      - steo_energy_wti_spot_usd_bbl_t_plus_1
+      - steo_energy_brent_spot_usd_bbl_t
+      - steo_energy_brent_spot_usd_bbl_t_plus_1
+      - steo_energy_residential_ng_usd_mcf_t
+      - steo_energy_residential_ng_usd_mcf_t_plus_1
+      - steo_energy_commercial_ng_usd_mcf_t
+      - steo_energy_commercial_ng_usd_mcf_t_plus_1
+      - steo_energy_industrial_ng_usd_mcf_t
+      - steo_energy_industrial_ng_usd_mcf_t_plus_1
+  steo_petroleum_supply:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - steo_petroleum_crude_prod_mmbd_t
+      - steo_petroleum_crude_prod_mmbd_t_plus_1
+      - steo_petroleum_total_consumption_mmbd_t
+      - steo_petroleum_total_consumption_mmbd_t_plus_1
+      - steo_petroleum_commercial_inventory_mmb_t
+      - steo_petroleum_commercial_inventory_mmb_t_plus_1
+      - steo_petroleum_total_supply_mmbd_t
+      - steo_petroleum_total_supply_mmbd_t_plus_1
+  steo_regional_gas_prices:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - steo_regional_residential_us_avg_usd_mcf_t
+      - steo_regional_residential_us_avg_usd_mcf_t_plus_1
+      - steo_regional_commercial_us_avg_usd_mcf_t
+      - steo_regional_commercial_us_avg_usd_mcf_t_plus_1
+      - steo_regional_industrial_us_avg_usd_mcf_t
+      - steo_regional_industrial_us_avg_usd_mcf_t_plus_1
+      - steo_regional_residential_spread_usd_mcf_t
+      - steo_regional_residential_spread_usd_mcf_t_plus_1
+      - steo_regional_commercial_spread_usd_mcf_t
+      - steo_regional_commercial_spread_usd_mcf_t_plus_1
+      - steo_regional_industrial_spread_usd_mcf_t
+      - steo_regional_industrial_spread_usd_mcf_t_plus_1
+  weather_freezeoff:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 45
+    features:
+      - freeze_days_mtd_weighted
+      - freeze_event_share_mtd_weighted
+      - freeze_intensity_mtd_weighted
+      - freeze_event_flag
+      - freeze_event_intensity
+      - freeze_days_mtd
+      - extreme_min_mtd
+      - coverage_fraction_mtd
+  oil_side:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 45
+    features:
+      - wti_mtd_mean
+      - wti_last
+      - brent_mtd_mean
+      - brent_last
+      - oil_rigs_last
+      - oil_rigs_mean_4w
+      - oil_rigs_slope_4w
+      - gas_rigs_last
+      - gas_rigs_mean_4w
+      - gas_rigs_slope_4w
+  transfer_priors:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 180
+    features:
+      - transfer_prior_us_bcfd_t
+      - transfer_prior_us_bcfd_t_plus_1
+      - transfer_prior_dispersion_t
+      - transfer_prior_dispersion_t_plus_1
+      - transfer_prior_basin_count_t
+      - transfer_prior_basin_count_t_plus_1
+  regime_flags:
+    enabled: true
+    asof_rule: available_timestamp_lte_asof
+    max_staleness_days: 45
+    features:
+      - regime_freeze_flag
+      - regime_basis_flag
+      - regime_transfer_dispersion_flag
+      - regime_any_flag
+      - regime_score

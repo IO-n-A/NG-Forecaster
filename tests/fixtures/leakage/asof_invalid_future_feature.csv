@@ -1,0 +1,2 @@
+row_key,asof,feature_timestamp,target_timestamp,feature_value,target_value
+prod_fut,2025-01-31,2025-02-01,2025-01-30,3.40,100.0

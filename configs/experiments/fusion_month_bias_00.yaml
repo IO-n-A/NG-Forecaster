@@ -1,0 +1,56 @@
+version: 1
+base:
+  champion_weight: 0.80
+  horizon_weights:
+    "1": 0.82
+    "2": 0.78
+  release_anchor_weight: 0.25
+  steo_weight: 0.10
+  prototype_weight: 0.00
+  month_length_bias_weight: 0.00
+regime_overrides:
+  normal:
+    horizon_weights:
+      "1": 0.82
+      "2": 0.78
+    release_anchor_weight: 0.25
+    steo_weight: 0.10
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.00
+  freeze_off:
+    horizon_weights:
+      "1": 0.82
+      "2": 0.78
+    release_anchor_weight: 0.25
+    steo_weight: 0.12
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.00
+  basis_blowout:
+    horizon_weights:
+      "1": 0.82
+      "2": 0.78
+    release_anchor_weight: 0.25
+    steo_weight: 0.10
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.00
+  transfer_dispersion:
+    horizon_weights:
+      "1": 0.82
+      "2": 0.78
+    release_anchor_weight: 0.25
+    steo_weight: 0.10
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.00
+  multi_shock:
+    horizon_weights:
+      "1": 0.82
+      "2": 0.78
+    release_anchor_weight: 0.25
+    steo_weight: 0.14
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.00
+weight_search:
+  champion_weight_grid: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80]
+  release_anchor_weight_grid: [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
+anchor_ablation:
+  release_anchor_weight_grid: [0.00, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30]

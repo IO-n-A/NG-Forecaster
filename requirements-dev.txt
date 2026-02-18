@@ -1,0 +1,10 @@
+ruff
+black
+mypy
+xlrd
+plotly
+pywavelets
+openpyxl
+pyarrow
+pypalettes
+kaleido

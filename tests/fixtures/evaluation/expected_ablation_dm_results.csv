@@ -1,0 +1,5 @@
+target,candidate_model,benchmark_model,d_bar,dm_stat,p_value,significant_0_05,significant_0_01,adjusted_p_value,n_obs
+ng_prod,B1_plus_preprocessing,B0_baseline,-1.3275,0.0,1.0,False,False,1.0,8
+ng_prod,B2_plus_feature_expansion,B0_baseline,-1.9875,0.0,1.0,False,False,1.0,8
+ng_prod,B3_plus_challenger,B0_baseline,-2.3275,0.0,1.0,False,False,1.0,8
+ng_prod,B4_full_method,B0_baseline,-2.5875,0.0,1.0,False,False,1.0,8

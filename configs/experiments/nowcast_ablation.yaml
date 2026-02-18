@@ -1,0 +1,57 @@
+version: 1
+baseline_experiment: B0_baseline
+full_method_experiment: B4_full_method
+selection_metric: rmse
+block_ablation:
+  enabled: true
+  mode: block_drop
+  baseline_variant: wpd_lstm_one_layer
+  block_ids:
+    - market_core
+    - steo_observation
+    - steo_driver
+    - steo_drilling_metrics
+    - steo_shale
+    - steo_energy_prices
+    - steo_petroleum_supply
+    - steo_regional_gas_prices
+    - weather_freezeoff
+    - oil_side
+    - transfer_priors
+    - regime_flags
+experiments:
+  - id: B0_baseline
+    stage: 0
+    description: Lag-safe baseline only.
+    toggles:
+      preprocessing: false
+      feature_expansion: false
+      challenger: false
+  - id: B1_plus_preprocessing
+    stage: 1
+    description: Baseline plus deterministic preprocessing gate.
+    toggles:
+      preprocessing: true
+      feature_expansion: false
+      challenger: false
+  - id: B2_plus_feature_expansion
+    stage: 2
+    description: B1 plus lag-safe feature expansion.
+    toggles:
+      preprocessing: true
+      feature_expansion: true
+      challenger: false
+  - id: B3_plus_challenger
+    stage: 3
+    description: B2 plus challenger support.
+    toggles:
+      preprocessing: true
+      feature_expansion: true
+      challenger: true
+  - id: B4_full_method
+    stage: 4
+    description: Full champion/challenger method stack.
+    toggles:
+      preprocessing: true
+      feature_expansion: true
+      challenger: true

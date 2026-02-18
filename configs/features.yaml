@@ -1,0 +1,134 @@
+version: 1
+default:
+  max_age_days: 35
+features:
+  hh_mtd_mean:
+    source_frequency: daily
+    aggregation: mtd_mean
+    max_age_days: 10
+  hh_last:
+    source_frequency: daily
+    aggregation: last
+    max_age_days: 7
+  hh_vol_7d:
+    source_frequency: daily
+    aggregation: rolling_std_7d
+    max_age_days: 7
+  hh_diff_1d:
+    source_frequency: daily
+    aggregation: diff_1d
+    max_age_days: 7
+  stor_last:
+    source_frequency: weekly
+    aggregation: last
+    max_age_days: 14
+  stor_mean_4w:
+    source_frequency: weekly
+    aggregation: mean_4w
+    max_age_days: 21
+  stor_slope_4w:
+    source_frequency: weekly
+    aggregation: slope_4w
+    max_age_days: 21
+  stor_mom_change:
+    source_frequency: weekly
+    aggregation: month_over_month
+    max_age_days: 35
+  freeze_event_flag:
+    source_frequency: daily
+    aggregation: weighted_flag
+    max_age_days: 45
+  freeze_event_intensity:
+    source_frequency: daily
+    aggregation: weighted_mean
+    max_age_days: 45
+  freeze_days_mtd:
+    source_frequency: daily
+    aggregation: weighted_mean
+    max_age_days: 45
+  extreme_min_mtd:
+    source_frequency: daily
+    aggregation: monthly_min
+    max_age_days: 45
+  coverage_fraction_mtd:
+    source_frequency: daily
+    aggregation: weighted_mean
+    max_age_days: 45
+  steo_drilling_rigs:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  steo_drilling_wells_drilled:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  steo_drilling_wells_completed:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  steo_drilling_duc_inventory:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  steo_drilling_new_well_gas_production:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  steo_drilling_existing_gas_production_change:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  steo_drilling_completion_to_duc_ratio:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  steo_drilling_new_well_minus_legacy:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 180
+  wti_mtd_mean:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 45
+  wti_last:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 45
+  brent_mtd_mean:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 45
+  brent_last:
+    source_frequency: monthly
+    aggregation: last
+    max_age_days: 45
+  oil_rigs_last:
+    source_frequency: weekly
+    aggregation: last
+    max_age_days: 35
+  oil_rigs_mean_4w:
+    source_frequency: weekly
+    aggregation: mean_4w
+    max_age_days: 35
+  oil_rigs_slope_4w:
+    source_frequency: weekly
+    aggregation: slope_4w
+    max_age_days: 35
+  gas_rigs_last:
+    source_frequency: weekly
+    aggregation: last
+    max_age_days: 35
+  gas_rigs_mean_4w:
+    source_frequency: weekly
+    aggregation: mean_4w
+    max_age_days: 35
+  gas_rigs_slope_4w:
+    source_frequency: weekly
+    aggregation: slope_4w
+    max_age_days: 35
+regime_thresholds:
+  freeze_days_high: 5.0
+  freeze_intensity_high: 1.5
+  freeze_event_share_high: 0.2
+  basis_spread_high: 14.883235999999998
+  transfer_dispersion_high: 2.5

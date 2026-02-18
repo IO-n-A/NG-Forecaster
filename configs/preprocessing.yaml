@@ -1,0 +1,7 @@
+version: 1
+short_gap_limit: 2
+short_gap_method: ffill
+long_gap_method: median
+outlier_zscore_threshold: 3.0
+outlier_method: winsorize
+min_non_null_ratio: 0.8

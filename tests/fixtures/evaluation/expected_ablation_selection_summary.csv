@@ -1,0 +1,6 @@
+experiment_id,target,selected_model,selected_metric,selection_metric,n_candidates
+B0_baseline,ng_prod,B0_baseline_main,1.7,rmse,1
+B1_plus_preprocessing,ng_prod,B1_plus_preprocessing_main,1.25,rmse,1
+B2_plus_feature_expansion,ng_prod,B2_plus_feature_expansion_main,0.95,rmse,2
+B3_plus_challenger,ng_prod,B3_plus_challenger_main,0.75,rmse,1
+B4_full_method,ng_prod,B4_full_method_main,0.55,rmse,1

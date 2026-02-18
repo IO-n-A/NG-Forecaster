@@ -1,0 +1,80 @@
+version: 1
+lookback_scope:
+  champion_lookback_target: true
+  challenger_lookback_fixed_during_sweep: true
+  feature_window_lookback_fixed_during_sweep: true
+model:
+  family: wpd_vmd_lstm
+  variant: wpd_lstm_one_layer
+strategy: wpd_lstm_one_layer
+wpd:
+  wavelet_family: db
+  wavelet_order: 5
+  levels: 3
+fuzzy_entropy:
+  m: 1
+  n: 2.0
+  r_policy: std_0.2
+vmd:
+  k_min: 2
+  k_max: 6
+  alpha: 2000.0
+  tau: 0.0
+  tol: 1.0e-07
+  theta_threshold: 0.05
+lstm:
+  engine: deterministic
+  lookback: 36
+  hidden_units: 32
+  batch_size: 16
+  learning_rate: 0.001
+  repeat_runs: 5
+  dropout: 0.1
+  max_epochs: 250
+  early_stopping_patience: 10
+  val_fraction: 0.2
+  min_delta: 0.0001
+training:
+  seed: 42
+  seed_noise_scale: 0.0
+target_transform:
+  normalize_by_days_in_month: true
+  log: false
+forecast:
+  horizons:
+  - 1
+  - 2
+  horizon_month_offset:
+    '1': 0
+    '2': 1
+  horizon_label:
+    '1': target_month
+    '2': target_month_plus_1
+exogenous:
+  weather_shock:
+    enabled: true
+    intercept: 0.0
+    beta_freeze_intensity: 5000.0
+    beta_freeze_days: 3000.0
+    beta_extreme_min: 2000.0
+    freeze_intensity_scale: 1.0
+    freeze_days_scale: 5.0
+    extreme_min_reference_f: 20.0
+    extreme_min_scale: 15.0
+    min_coverage_fraction: 0.75
+    cap_abs_adjustment: 25000.0
+  weather_shock_state:
+    enabled: true
+    persistence: 0.65
+    impact_weight: 12000.0
+    recovery_weight: 0.55
+    cap_abs_adjustment: 20000.0
+  transfer_priors:
+    enabled: true
+    prior_weight: 20000.0
+    dispersion_weight: 15000.0
+    prior_scale: 1000.0
+    dispersion_scale: 100.0
+    max_abs_adjustment: 250000.0
+    min_confidence_weight: 0.25
+    confidence_power: 1.25

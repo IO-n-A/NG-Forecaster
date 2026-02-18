@@ -1,0 +1,6 @@
+case_id,data_id,sidedness,multiple_comparison,benchmark_by_target,expected_status,expected_reason_code
+dm_two_sided_holm,core,two_sided,holm,"{""ng_prod"": ""baseline""}",pass,
+dm_less_bonferroni,core,less,bonferroni,"{""ng_prod"": ""baseline""}",pass,
+dm_greater_none,core,greater,none,"{""ng_prod"": ""baseline""}",pass,
+dm_missing_benchmark_forecast,missing_benchmark,two_sided,holm,"{""ng_prod"": ""baseline""}",fail,missing_benchmark_forecast
+dm_missing_benchmark_policy,missing_policy,two_sided,holm,"{""ng_prod"": ""baseline""}",fail,missing_benchmark_policy

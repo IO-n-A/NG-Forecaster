@@ -1,0 +1,1228 @@
+{
+  "error_count": 0,
+  "generated": [
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__anchor_blend_ablation.png",
+      "relative_source": "after/promoted/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__dm_by_regime.png",
+      "relative_source": "after/promoted/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__interval_calibration_by_regime.png",
+      "relative_source": "after/promoted/interval_calibration_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/interval_calibration_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__interval_calibration_table.png",
+      "relative_source": "after/promoted/interval_calibration_table.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/interval_calibration_table.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__interval_scorecard.png",
+      "relative_source": "after/promoted/interval_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/interval_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__interval_scorecard_by_regime.png",
+      "relative_source": "after/promoted/interval_scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/interval_scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__regime_counts.png",
+      "relative_source": "after/promoted/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__reproducibility_trials_summary.png",
+      "relative_source": "after/promoted/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__scorecard_by_regime.png",
+      "relative_source": "after/promoted/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__validation_24m_calendar_calibration.png",
+      "relative_source": "after/promoted/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__validation_24m_month_length_by_regime.png",
+      "relative_source": "after/promoted/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__validation_24m_month_length_diagnostics.png",
+      "relative_source": "after/promoted/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__validation_24m_month_length_effect.png",
+      "relative_source": "after/promoted/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__validation_24m_point_estimates.png",
+      "relative_source": "after/promoted/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__validation_24m_scorecard.png",
+      "relative_source": "after/promoted/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/after__promoted__validation_24m_summary.png",
+      "relative_source": "after/promoted/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/after/promoted/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__regime_counts.png",
+      "relative_source": "bsts_cli_integration/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__reproducibility_trials_summary.png",
+      "relative_source": "bsts_cli_integration/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__validation_24m_calendar_calibration.png",
+      "relative_source": "bsts_cli_integration/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__validation_24m_month_length_by_regime.png",
+      "relative_source": "bsts_cli_integration/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__validation_24m_month_length_diagnostics.png",
+      "relative_source": "bsts_cli_integration/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__validation_24m_month_length_effect.png",
+      "relative_source": "bsts_cli_integration/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__validation_24m_point_estimates.png",
+      "relative_source": "bsts_cli_integration/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__validation_24m_scorecard.png",
+      "relative_source": "bsts_cli_integration/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/bsts_cli_integration__validation_24m_summary.png",
+      "relative_source": "bsts_cli_integration/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/bsts_cli_integration/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__anchor_blend_ablation.png",
+      "relative_source": "calibration_policy_search/by_regime/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__calendar_policy_selected_by_regime.png",
+      "relative_source": "calibration_policy_search/by_regime/calendar_policy_selected_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/calendar_policy_selected_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__dm_by_regime.png",
+      "relative_source": "calibration_policy_search/by_regime/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__fusion_weight_search.png",
+      "relative_source": "calibration_policy_search/by_regime/fusion_weight_search.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/fusion_weight_search.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__fusion_weight_search_v7.png",
+      "relative_source": "calibration_policy_search/by_regime/fusion_weight_search_v7.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/fusion_weight_search_v7.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__fusion_weight_selected.png",
+      "relative_source": "calibration_policy_search/by_regime/fusion_weight_selected.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/fusion_weight_selected.json",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__fusion_weight_selected_v7.png",
+      "relative_source": "calibration_policy_search/by_regime/fusion_weight_selected_v7.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/fusion_weight_selected_v7.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__regime_counts.png",
+      "relative_source": "calibration_policy_search/by_regime/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__reproducibility_trials_summary.png",
+      "relative_source": "calibration_policy_search/by_regime/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__scorecard_by_regime.png",
+      "relative_source": "calibration_policy_search/by_regime/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__validation_24m_calendar_calibration.png",
+      "relative_source": "calibration_policy_search/by_regime/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__validation_24m_month_length_by_regime.png",
+      "relative_source": "calibration_policy_search/by_regime/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__validation_24m_month_length_diagnostics.png",
+      "relative_source": "calibration_policy_search/by_regime/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__validation_24m_month_length_effect.png",
+      "relative_source": "calibration_policy_search/by_regime/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__validation_24m_point_estimates.png",
+      "relative_source": "calibration_policy_search/by_regime/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__validation_24m_scorecard.png",
+      "relative_source": "calibration_policy_search/by_regime/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__by_regime__validation_24m_summary.png",
+      "relative_source": "calibration_policy_search/by_regime/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/by_regime/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__anchor_blend_ablation.png",
+      "relative_source": "calibration_policy_search/global/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__calendar_policy_selected_by_regime.png",
+      "relative_source": "calibration_policy_search/global/calendar_policy_selected_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/calendar_policy_selected_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__dm_by_regime.png",
+      "relative_source": "calibration_policy_search/global/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__fusion_weight_search.png",
+      "relative_source": "calibration_policy_search/global/fusion_weight_search.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/fusion_weight_search.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__fusion_weight_search_v7.png",
+      "relative_source": "calibration_policy_search/global/fusion_weight_search_v7.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/fusion_weight_search_v7.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__fusion_weight_selected.png",
+      "relative_source": "calibration_policy_search/global/fusion_weight_selected.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/fusion_weight_selected.json",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__fusion_weight_selected_v7.png",
+      "relative_source": "calibration_policy_search/global/fusion_weight_selected_v7.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/fusion_weight_selected_v7.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__regime_counts.png",
+      "relative_source": "calibration_policy_search/global/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__reproducibility_trials_summary.png",
+      "relative_source": "calibration_policy_search/global/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__scorecard_by_regime.png",
+      "relative_source": "calibration_policy_search/global/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__validation_24m_calendar_calibration.png",
+      "relative_source": "calibration_policy_search/global/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__validation_24m_month_length_by_regime.png",
+      "relative_source": "calibration_policy_search/global/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__validation_24m_month_length_diagnostics.png",
+      "relative_source": "calibration_policy_search/global/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__validation_24m_month_length_effect.png",
+      "relative_source": "calibration_policy_search/global/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__validation_24m_point_estimates.png",
+      "relative_source": "calibration_policy_search/global/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__validation_24m_scorecard.png",
+      "relative_source": "calibration_policy_search/global/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/calibration_policy_search__global__validation_24m_summary.png",
+      "relative_source": "calibration_policy_search/global/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/calibration_policy_search/global/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__bsts_marginal_benefit_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/bsts_marginal_benefit_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/bsts_marginal_benefit_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__bsts_marginal_benefit_overall.png",
+      "relative_source": "fusion_ablation_bsts/bsts_marginal_benefit_overall.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/bsts_marginal_benefit_overall.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__bsts_marginal_benefit_summary.png",
+      "relative_source": "fusion_ablation_bsts/bsts_marginal_benefit_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/bsts_marginal_benefit_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__anchor_blend_ablation.png",
+      "relative_source": "fusion_ablation_bsts/enabled/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__calendar_policy_selected_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/enabled/calendar_policy_selected_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/calendar_policy_selected_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__dm_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/enabled/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__fusion_weight_search.png",
+      "relative_source": "fusion_ablation_bsts/enabled/fusion_weight_search.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/fusion_weight_search.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__fusion_weight_search_v7.png",
+      "relative_source": "fusion_ablation_bsts/enabled/fusion_weight_search_v7.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/fusion_weight_search_v7.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__fusion_weight_selected.png",
+      "relative_source": "fusion_ablation_bsts/enabled/fusion_weight_selected.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/fusion_weight_selected.json",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__fusion_weight_selected_v7.png",
+      "relative_source": "fusion_ablation_bsts/enabled/fusion_weight_selected_v7.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/fusion_weight_selected_v7.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__regime_counts.png",
+      "relative_source": "fusion_ablation_bsts/enabled/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__reproducibility_trials_summary.png",
+      "relative_source": "fusion_ablation_bsts/enabled/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__scorecard_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/enabled/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__validation_24m_calendar_calibration.png",
+      "relative_source": "fusion_ablation_bsts/enabled/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__validation_24m_month_length_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/enabled/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__validation_24m_month_length_diagnostics.png",
+      "relative_source": "fusion_ablation_bsts/enabled/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__validation_24m_month_length_effect.png",
+      "relative_source": "fusion_ablation_bsts/enabled/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__validation_24m_point_estimates.png",
+      "relative_source": "fusion_ablation_bsts/enabled/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__validation_24m_scorecard.png",
+      "relative_source": "fusion_ablation_bsts/enabled/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__enabled__validation_24m_summary.png",
+      "relative_source": "fusion_ablation_bsts/enabled/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/enabled/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__anchor_blend_ablation.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__calendar_policy_selected_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/calendar_policy_selected_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/calendar_policy_selected_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__dm_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__fusion_weight_search.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/fusion_weight_search.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/fusion_weight_search.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__fusion_weight_search_v7.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/fusion_weight_search_v7.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/fusion_weight_search_v7.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__fusion_weight_selected.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/fusion_weight_selected.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/fusion_weight_selected.json",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__fusion_weight_selected_v7.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/fusion_weight_selected_v7.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/fusion_weight_selected_v7.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__regime_counts.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__reproducibility_trials_summary.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__scorecard_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__validation_24m_calendar_calibration.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__validation_24m_month_length_by_regime.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__validation_24m_month_length_diagnostics.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__validation_24m_month_length_effect.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__validation_24m_point_estimates.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__validation_24m_scorecard.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/fusion_ablation_bsts__forced_off__validation_24m_summary.png",
+      "relative_source": "fusion_ablation_bsts/forced_off/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/fusion_ablation_bsts/forced_off/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__anchor_blend_ablation.png",
+      "relative_source": "interval_quality/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__dm_by_regime.png",
+      "relative_source": "interval_quality/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__interval_calibration_by_regime.png",
+      "relative_source": "interval_quality/interval_calibration_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/interval_calibration_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__interval_calibration_table.png",
+      "relative_source": "interval_quality/interval_calibration_table.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/interval_calibration_table.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__interval_scorecard.png",
+      "relative_source": "interval_quality/interval_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/interval_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__interval_scorecard_by_regime.png",
+      "relative_source": "interval_quality/interval_scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/interval_scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__regime_counts.png",
+      "relative_source": "interval_quality/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__reproducibility_trials_summary.png",
+      "relative_source": "interval_quality/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__scorecard_by_regime.png",
+      "relative_source": "interval_quality/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__validation_24m_calendar_calibration.png",
+      "relative_source": "interval_quality/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__validation_24m_month_length_by_regime.png",
+      "relative_source": "interval_quality/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__validation_24m_month_length_diagnostics.png",
+      "relative_source": "interval_quality/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__validation_24m_month_length_effect.png",
+      "relative_source": "interval_quality/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__validation_24m_point_estimates.png",
+      "relative_source": "interval_quality/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__validation_24m_scorecard.png",
+      "relative_source": "interval_quality/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/interval_quality__validation_24m_summary.png",
+      "relative_source": "interval_quality/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/interval_quality/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__ablation_by_regime_scorecard.png",
+      "relative_source": "multi_shock_fixes/diagnose/ablation_by_regime_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/ablation_by_regime_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__ablation_scorecard.png",
+      "relative_source": "multi_shock_fixes/diagnose/ablation_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/ablation_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__anchor_blend_ablation.png",
+      "relative_source": "multi_shock_fixes/diagnose/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__block_importance_24m.png",
+      "relative_source": "multi_shock_fixes/diagnose/block_importance_24m.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/block_importance_24m.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__dm_by_regime.png",
+      "relative_source": "multi_shock_fixes/diagnose/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__multi_shock_attribution.png",
+      "relative_source": "multi_shock_fixes/diagnose/multi_shock_attribution.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/multi_shock_attribution.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__regime_counts.png",
+      "relative_source": "multi_shock_fixes/diagnose/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__reproducibility_trials_summary.png",
+      "relative_source": "multi_shock_fixes/diagnose/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__scorecard_by_regime.png",
+      "relative_source": "multi_shock_fixes/diagnose/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_calendar_calibration.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_feature_rows.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_feature_rows.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_feature_rows.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_month_length_by_regime.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_month_length_diagnostics.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_month_length_effect.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_point_estimates.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_scorecard.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__diagnose__validation_24m_summary.png",
+      "relative_source": "multi_shock_fixes/diagnose/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/diagnose/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__anchor_blend_ablation.png",
+      "relative_source": "multi_shock_fixes/gated/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__dm_by_regime.png",
+      "relative_source": "multi_shock_fixes/gated/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__regime_counts.png",
+      "relative_source": "multi_shock_fixes/gated/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__reproducibility_trials_summary.png",
+      "relative_source": "multi_shock_fixes/gated/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__scorecard_by_regime.png",
+      "relative_source": "multi_shock_fixes/gated/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__validation_24m_calendar_calibration.png",
+      "relative_source": "multi_shock_fixes/gated/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__validation_24m_month_length_by_regime.png",
+      "relative_source": "multi_shock_fixes/gated/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__validation_24m_month_length_diagnostics.png",
+      "relative_source": "multi_shock_fixes/gated/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__validation_24m_month_length_effect.png",
+      "relative_source": "multi_shock_fixes/gated/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__validation_24m_point_estimates.png",
+      "relative_source": "multi_shock_fixes/gated/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__validation_24m_scorecard.png",
+      "relative_source": "multi_shock_fixes/gated/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__gated__validation_24m_summary.png",
+      "relative_source": "multi_shock_fixes/gated/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/gated/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__anchor_blend_ablation.png",
+      "relative_source": "multi_shock_fixes/robustified/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__dm_by_regime.png",
+      "relative_source": "multi_shock_fixes/robustified/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__regime_counts.png",
+      "relative_source": "multi_shock_fixes/robustified/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__reproducibility_trials_summary.png",
+      "relative_source": "multi_shock_fixes/robustified/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__scorecard_by_regime.png",
+      "relative_source": "multi_shock_fixes/robustified/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__validation_24m_calendar_calibration.png",
+      "relative_source": "multi_shock_fixes/robustified/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__validation_24m_month_length_by_regime.png",
+      "relative_source": "multi_shock_fixes/robustified/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__validation_24m_month_length_diagnostics.png",
+      "relative_source": "multi_shock_fixes/robustified/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__validation_24m_month_length_effect.png",
+      "relative_source": "multi_shock_fixes/robustified/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__validation_24m_point_estimates.png",
+      "relative_source": "multi_shock_fixes/robustified/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__validation_24m_scorecard.png",
+      "relative_source": "multi_shock_fixes/robustified/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/multi_shock_fixes__robustified__validation_24m_summary.png",
+      "relative_source": "multi_shock_fixes/robustified/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/multi_shock_fixes/robustified/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__anchor_blend_ablation.png",
+      "relative_source": "replay_24m_with_bsts/anchor_blend_ablation.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/anchor_blend_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__dm_by_regime.png",
+      "relative_source": "replay_24m_with_bsts/dm_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/dm_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__regime_counts.png",
+      "relative_source": "replay_24m_with_bsts/regime_counts.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/regime_counts.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__reproducibility_trials_summary.png",
+      "relative_source": "replay_24m_with_bsts/reproducibility_trials_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/reproducibility_trials_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__scorecard_by_regime.png",
+      "relative_source": "replay_24m_with_bsts/scorecard_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/scorecard_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__validation_24m_calendar_calibration.png",
+      "relative_source": "replay_24m_with_bsts/validation_24m_calendar_calibration.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/validation_24m_calendar_calibration.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__validation_24m_month_length_by_regime.png",
+      "relative_source": "replay_24m_with_bsts/validation_24m_month_length_by_regime.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/validation_24m_month_length_by_regime.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__validation_24m_month_length_diagnostics.png",
+      "relative_source": "replay_24m_with_bsts/validation_24m_month_length_diagnostics.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/validation_24m_month_length_diagnostics.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__validation_24m_month_length_effect.png",
+      "relative_source": "replay_24m_with_bsts/validation_24m_month_length_effect.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/validation_24m_month_length_effect.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__validation_24m_point_estimates.png",
+      "relative_source": "replay_24m_with_bsts/validation_24m_point_estimates.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/validation_24m_point_estimates.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__validation_24m_scorecard.png",
+      "relative_source": "replay_24m_with_bsts/validation_24m_scorecard.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/validation_24m_scorecard.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/replay_24m_with_bsts__validation_24m_summary.png",
+      "relative_source": "replay_24m_with_bsts/validation_24m_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/replay_24m_with_bsts/validation_24m_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/sprint9_summary_snapshot.png",
+      "relative_source": "sprint9_summary_snapshot.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/sprint9_summary_snapshot.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__leakage_audit_summary.png",
+      "relative_source": "wpdlstm2_sanity/leakage_audit_summary.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/leakage_audit_summary.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__leakage_audit_summary.png",
+      "relative_source": "wpdlstm2_sanity/leakage_audit_summary.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/leakage_audit_summary.json",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__leakage_audit_summary_by_month.png",
+      "relative_source": "wpdlstm2_sanity/leakage_audit_summary_by_month.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/leakage_audit_summary_by_month.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "empty",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__leakage_audit_summary_by_type.png",
+      "relative_source": "wpdlstm2_sanity/leakage_audit_summary_by_type.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/leakage_audit_summary_by_type.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "empty",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__leakage_audit_violations.png",
+      "relative_source": "wpdlstm2_sanity/leakage_audit_violations.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/leakage_audit_violations.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__wpdlstm2_before_after.png",
+      "relative_source": "wpdlstm2_sanity/wpdlstm2_before_after.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/wpdlstm2_before_after.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "line",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__wpdlstm2_handcheck_months.png",
+      "relative_source": "wpdlstm2_sanity/wpdlstm2_handcheck_months.csv",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/wpdlstm2_handcheck_months.csv",
+      "status": "ok"
+    },
+    {
+      "kind": "table",
+      "png": "~/NG-Forecaster/ops/viz/runtime_png/wpdlstm2_sanity__wpdlstm2_window_fingerprint.png",
+      "relative_source": "wpdlstm2_sanity/wpdlstm2_window_fingerprint.json",
+      "source": "~/NG-Forecaster/data/reports/sprint9/wpdlstm2_sanity/wpdlstm2_window_fingerprint.json",
+      "status": "ok"
+    }
+  ],
+  "generated_at_utc": "2026-02-18 13:47:10 UTC",
+  "output_dir": "~/NG-Forecaster/ops/viz/runtime_png",
+  "png_count": 174,
+  "runtime_root": "~/NG-Forecaster/data/reports/sprint9",
+  "source_count": 174
+}

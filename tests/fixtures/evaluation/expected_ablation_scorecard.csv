@@ -1,0 +1,6 @@
+experiment_id,target,mae,rmse,mape,dm_vs_baseline_p_value,dm_vs_baseline_stat,dm_vs_baseline_d_bar,runtime_seconds,lineage_id,selected_model,selected_metric,selection_metric,n_obs,n_candidates
+B0_baseline,ng_prod,1.7,1.7,0.0167993986,1.0,0.0,0.0,42.0,B0_baseline_lineage_main,B0_baseline_main,1.7,rmse,8,1
+B1_plus_preprocessing,ng_prod,1.25,1.25,0.012352499,1.0,0.0,-1.3275,48.0,B1_plus_preprocessing_lineage_main,B1_plus_preprocessing_main,1.25,rmse,8,1
+B2_plus_feature_expansion,ng_prod,0.95,0.95,0.0093878992,1.0,0.0,-1.9875,54.0,B2_plus_feature_expansion_lineage_main,B2_plus_feature_expansion_main,0.95,rmse,8,2
+B3_plus_challenger,ng_prod,0.75,0.75,0.0074114994,1.0,0.0,-2.3275,60.0,B3_plus_challenger_lineage_main,B3_plus_challenger_main,0.75,rmse,8,1
+B4_full_method,ng_prod,0.55,0.55,0.0054350995,1.0,0.0,-2.5875,66.0,B4_full_method_lineage_main,B4_full_method_main,0.55,rmse,8,1

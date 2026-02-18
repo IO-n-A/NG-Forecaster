@@ -1,0 +1,104 @@
+version: 2
+defaults:
+  freshness_max_age_days: 120
+  bootstrap_root: data/bootstrap/raw
+release_calendar:
+  lag_months: 2
+  release_day_of_month: 30
+  admissible_day_window:
+    start_day: 1
+    end_day: 31
+sources:
+  - id: ng_prod_target
+    role: target_history
+    ingest_stream: bulk
+    retrieval_mode: bulk_snapshot
+    filename: US_DryNaturalGasProduction.xls
+    required: true
+    freshness_max_age_days: 180
+    parse:
+      kind: eia_monthly_target_xls
+      sheet: Data 1
+      timestamp_col: Date
+      value_col: U.S. Dry Natural Gas Production (MMcf)
+  - id: dpr_data
+    role: driver
+    ingest_stream: bulk
+    retrieval_mode: bulk_snapshot
+    filename: dpr-data.xlsx
+    required: true
+    freshness_max_age_days: 180
+  - id: duc_data
+    role: driver
+    ingest_stream: bulk
+    retrieval_mode: bulk_snapshot
+    filename: duc-data.xlsx
+    required: true
+    freshness_max_age_days: 180
+  - id: steo_vintage_manifest
+    role: driver
+    ingest_stream: bulk
+    retrieval_mode: archive_manifest
+    filename: manifest.csv
+    required: false
+    freshness_max_age_days: 62
+    parse:
+      archive_manifest: steo_vintages/manifest.csv
+      workbook_glob: steo_vintages/vintage_month=*/steo_m.xlsx
+      table_sheets:
+        table_2: 2tab
+        table_4a: 4atab
+        table_5a: 5atab
+        table_5b: 5btab
+        table_10a: 10atab
+        table_10b: 10btab
+  - id: steo_latest_workbook
+    role: driver
+    ingest_stream: bulk
+    retrieval_mode: archive_glob
+    filename: steo_m.xlsx
+    required: false
+    freshness_max_age_days: 62
+    parse:
+      glob: steo_vintages/vintage_month=*/steo_m.xlsx
+  - id: context_manifest
+    role: metadata
+    ingest_stream: bulk
+    retrieval_mode: archive_manifest
+    filename: manifest.csv
+    required: false
+    freshness_max_age_days: 365
+    parse:
+      archive_manifest: context/external/manifest.csv
+  - id: weekly_meta
+    role: driver
+    ingest_stream: api
+    retrieval_mode: fixture_csv
+    filename: weekly_meta.json
+    required: false
+    freshness_max_age_days: 45
+  - id: weekly_prices
+    role: driver
+    ingest_stream: api
+    retrieval_mode: fixture_csv
+    filename: weekly_prices.csv
+    required: false
+    freshness_max_age_days: 45
+  - id: bootstrap_readme
+    role: metadata
+    ingest_stream: bulk
+    retrieval_mode: bootstrap_file
+    filename: readme.txt
+    required: false
+    freshness_max_age_days: 3650
+  - id: nasa_power_t2m_min
+    role: driver
+    ingest_stream: api
+    retrieval_mode: api_snapshot
+    filename: nasa_power_t2m_min_daily.parquet
+    required: false
+    freshness_max_age_days: 7
+    parse:
+      endpoint: https://power.larc.nasa.gov/api/temporal/daily/point
+      parameter: T2M_MIN
+      basin_geojson: data/reference/dpr_basin_polygons.geojson

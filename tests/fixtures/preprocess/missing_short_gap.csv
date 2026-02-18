@@ -1,0 +1,6 @@
+timestamp,series_id,value
+2025-01-01,prod,100
+2025-01-02,prod,
+2025-01-03,prod,
+2025-01-04,prod,103
+2025-01-05,prod,104

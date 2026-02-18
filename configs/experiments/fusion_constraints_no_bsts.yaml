@@ -1,0 +1,4 @@
+force_bsts_off: true
+multi_shock_disable_calendar_calibration: false
+multi_shock_disable_prototype: false
+multi_shock_max_month_length_bias_weight: 0.04

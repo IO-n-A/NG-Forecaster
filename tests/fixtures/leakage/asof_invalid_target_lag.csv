@@ -1,0 +1,2 @@
+row_key,asof,feature_timestamp,target_timestamp,feature_value,target_value
+prod_tlag,2025-02-28,2025-02-28,2025-02-28,4.00,103.0

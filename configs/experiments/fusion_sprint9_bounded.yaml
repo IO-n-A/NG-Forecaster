@@ -1,0 +1,82 @@
+version: 1
+base:
+  champion_weight: 0.50
+  horizon_weights:
+    "1": 0.50
+    "2": 0.50
+  release_anchor_weight: 0.30
+  steo_weight: 0.15
+  prototype_weight: 0.00
+  month_length_bias_weight: 0.04
+regime_overrides:
+  normal:
+    horizon_weights:
+      "1": 0.60
+      "2": 0.60
+    release_anchor_weight: 0.25
+    steo_weight: 0.15
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.04
+  freeze_off:
+    horizon_weights:
+      "1": 0.50
+      "2": 0.50
+    release_anchor_weight: 0.00
+    steo_weight: 0.15
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.07
+    calendar_calibration:
+      regime_scale:
+        freeze_off: 1.15
+  basis_blowout:
+    horizon_weights:
+      "1": 0.60
+      "2": 0.60
+    release_anchor_weight: 0.25
+    steo_weight: 0.15
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.04
+  transfer_dispersion:
+    horizon_weights:
+      "1": 0.50
+      "2": 0.50
+    release_anchor_weight: 0.30
+    steo_weight: 0.15
+    prototype_weight: 0.12
+    month_length_bias_weight: 0.04
+    calendar_calibration:
+      regime_scale:
+        transfer_dispersion: 1.10
+  multi_shock:
+    horizon_weights:
+      "1": 0.60
+      "2": 0.60
+    release_anchor_weight: 0.25
+    steo_weight: 0.15
+    prototype_weight: 0.00
+    month_length_bias_weight: 0.06
+calendar_calibration:
+  enabled: false
+  max_abs_adjustment: 15000.0
+  day_weights:
+    "28": -0.20
+    "29": -0.10
+    "30": 0.00
+    "31": 0.20
+  leap_february_bonus: -2500.0
+  regime_scale:
+    normal: 1.00
+    freeze_off: 1.15
+    basis_blowout: 1.00
+    transfer_dispersion: 1.10
+    multi_shock: 1.05
+weight_search:
+  champion_weight_grid: [0.50, 0.60, 0.70]
+  release_anchor_weight_grid: [0.00, 0.15, 0.30]
+  steo_weight_grid: [0.00, 0.15]
+  prototype_weight_grid: [0.00, 0.12]
+  calendar_calibration_enabled_grid: [0, 1]
+  calendar_calibration_weight_grid: [0.50, 1.00]
+  calendar_calibration_cap_abs_grid: [5000.0, 15000.0]
+anchor_ablation:
+  release_anchor_weight_grid: [0.00, 0.15, 0.30]

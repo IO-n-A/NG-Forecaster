@@ -1,0 +1,19 @@
+version: 1
+loss: mse
+sidedness: two_sided
+alpha_levels:
+  - 0.05
+  - 0.01
+small_sample_adjustment: harvey
+hac_lag_min: 3
+hac_lag_max: 6
+benchmark_by_target:
+  ng_prod: wpd_vmd_lstm1
+multiple_comparison: holm
+require_benchmark_forecast: true
+report_adjusted_p_value: true
+comparison_pairs_by_target:
+  ng_prod:
+    - [wpd_lstm_one_layer, wpd_vmd_lstm1]
+    - [wpd_lstm_one_layer, wpd_vmd_lstm2]
+    - [wpd_vmd_lstm1, wpd_vmd_lstm2]

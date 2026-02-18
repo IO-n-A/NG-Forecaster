@@ -1,0 +1,39 @@
+version: 1
+lookback_scope:
+  champion_lookback_target: false
+  challenger_lookback_fixed_during_sweep: true
+  feature_window_lookback_fixed_during_sweep: true
+model:
+  family: bsts
+  variant: local_linear_trend_student_t
+  engine: deterministic
+training:
+  lookback: 48
+state_space:
+  student_t_df: 6
+  center_scale: true
+  pymc_draws: 500
+  pymc_tune: 500
+  pymc_chains: 2
+target_transform:
+  normalize_by_days_in_month: true
+  log: false
+forecast:
+  horizons: [1, 2]
+  horizon_month_offset:
+    "1": 0
+    "2": 1
+  horizon_label:
+    "1": target_month
+    "2": target_month_plus_1
+  alpha: 0.95
+exogenous:
+  transfer_priors:
+    enabled: true
+    prior_weight: 15000.0
+    dispersion_weight: 12000.0
+    prior_scale: 1000.0
+    dispersion_scale: 100.0
+    max_abs_adjustment: 250000.0
+    min_confidence_weight: 0.25
+    confidence_power: 1.25
